@@ -5,9 +5,9 @@ A quick and dirty minimalist system info application
 │  User/Host │ -> user@hostname
 │         OS │ -> "Arch Linux" (5.18.10-arch1-1)
 │      Shell │ -> fish (/usr/bin/fish)
-│      WM/DE │ -> KWin/Cutefish
-│     Uptime │ -> 1 day, 5 hours, 42 minutes
-│     Memory │ -> 4724/15924MB (29.67%)
+│      WM/DE │ -> KWin+Cutefish
+│     Uptime │ -> 1 day, 6 hours, 26 minutes
+│     Memory │ -> 4569/15924MB (28.69%)
 ╰────────────╯
 ```
 ```
