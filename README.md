@@ -12,7 +12,7 @@ A quick and dirty minimalist system info application
 ```
 ```
 ________________________________________________________
-Executed in   31.54 millis    fish           external
-   usr time   17.89 millis  626.00 micros   17.27 millis
-   sys time   22.21 millis    0.00 micros   22.21 millis
+Executed in   23.83 millis    fish           external
+   usr time   23.28 millis  516.00 micros   22.77 millis
+   sys time    8.45 millis    0.00 micros    8.45 millis
 ```
