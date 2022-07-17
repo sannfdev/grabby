@@ -8,7 +8,7 @@
 # https://github.com/sannfdev/grabby
 
 # Config
-if [ -f "$HOME/grabby.conf" ]; then printf ""; else
+if [[ ! -f "$HOME/grabby.conf" ]]; then
     printf "\033[1;37m[\033[33mWARN\033[37m]\033[0m Config not found, creating one in '%s'\n" $HOME
     echo -e "# Welcome to the configuration file for Grabby!\n# The default values are true, 033, 37, 35, 34\n\n# Grabby uses ANSI escape codes for text color. You can find a basic list below:\n# - BLACK=30\n# - RED=31\n# - GREEN=32\n# - YELLOW=33\n# - BLUE=34\n# - MAGENTA=35\n# - CYAN=36\n# - WHITE=37\n# - DEFAULT=39\n\nuse_color=true     # Determines if Grabby outputs colored text\nescape_code=033    # Determines the escape code used for ANSI codes\noutline_color=37   # Determines the color of the 'outline' characters\nmain_color=35      # Determines the color of the 'main' characters\nhighlight_color=34 # Determines the color of the 'highlight' characters"  >> "$HOME/grabby.conf"
 fi
