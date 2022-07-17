@@ -1,6 +1,12 @@
 # Grabby
 A customizable minimalist system info application
 
+# Installation
+| Method    | Command                                                                                           |
+| :-------- | :------------------------------------------------------------------------------------------------ |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/sannfdev/install.sh)"`|
+
+
 ## Output preview
 ```
 ╭─────────────╮
