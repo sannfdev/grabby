@@ -36,4 +36,4 @@ printf "$c1│$c2  Resolution$c1 │$c3 ->$c2 %s${c1}x$c2%s\n" $(echo "$res" | c
 free -h | awk -v c1="$c1" -v c2="$c2" -v c3="$c3" '/^Mem/ {printf("%s│%s      Memory%s │%s -> %s%s%s/%s%s %s(%s%s%%%s)\n", c1, c2, c1, c3, c2, $3, c1, c2, $2, c1, c3, int($3*100/$2), c1)}'
 printf "│$c2  Disk Quota$c1 │\n"
 df | awk -v c1="$c1" -v c2="$c2" -v c3="$c3" '/^\/dev\// {barc=int($5 * 30 / 100); printf("│%s %10s%s  │ ", c3, "- "substr($1, 6), c1); for(i=0;i<=barc;i++) printf("%s━",c2);for(i=barc;i<=30;i++) printf("%s-", c1); printf(" %s%s%s%%\n", c2, $5-0, c1)}'
-printf '╰─────────────╯%s\n'
+printf '╰─────────────╯\033[0m\n'
