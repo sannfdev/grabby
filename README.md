@@ -1,18 +1,23 @@
 # grabby
 A quick and dirty minimalist system info application
 ```
-╭────────────╮
-│  User/Host │ -> user@hostname
-│         OS │ -> "Arch Linux" (5.18.10-arch1-1)
-│      Shell │ -> fish (/usr/bin/fish)
-│      WM/DE │ -> KWin+Cutefish
-│     Uptime │ -> 1 day, 6 hours, 26 minutes
-│     Memory │ -> 4569/15924MB (28.69%)
-╰────────────╯
+╭─────────────╮
+│   User/Host │ -> sannf@hobbithole                                                                             
+│          OS │ -> "Arch Linux" (5.18.11-arch1-1)                                                               
+│      Uptime │ -> 16 hours, 24 minutes                                                                         
+│       Shell │ -> fish (/usr/bin/fish)                                                                         
+│       WM/DE │ -> KWin + Cutefish                                                                              
+│  Resolution │ -> 1920x1080                                                                                    
+│      Memory │ -> 4.7Gi/15Gi (31%)                                                                             
+│  Disk Quota │                                                                                                 
+│     - sda2  │ ━━━----------------------------- 7%                                                             
+│     - sda1  │ ━------------------------------- 1%                                                             
+│     - sdc1  │ ━━━----------------------------- 7%                                                             
+╰─────────────╯
 ```
 ```
-________________________________________________________
-Executed in   23.83 millis    fish           external
-   usr time   23.28 millis  516.00 micros   22.77 millis
-   sys time    8.45 millis    0.00 micros    8.45 millis
+________________________________________________________                                                        
+Executed in   32.28 millis    fish           external                                                           
+   usr time   36.81 millis  298.00 micros   36.51 millis                                                        
+   sys time    9.23 millis    0.00 micros    9.23 millis 
 ```
