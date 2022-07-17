@@ -1,5 +1,7 @@
-# grabby
-A quick and dirty minimalist system info application
+# Grabby
+A customizable minimalist system info application
+
+## Output preview
 ```
 ╭─────────────╮
 │   User/Host │ -> sannf@hobbithole                                                                             
@@ -15,6 +17,8 @@ A quick and dirty minimalist system info application
 │     - sdc1  │ ━━━----------------------------- 7%                                                             
 ╰─────────────╯
 ```
+
+## Timing data
 ```
 ________________________________________________________                                                        
 Executed in   32.28 millis    fish           external                                                           
