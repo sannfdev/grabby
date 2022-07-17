@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Grabby v1 by sannf
+# u/sannf_
+# sannf#0001
+# github.com/sannfdev
+
+# https://github.com/sannfdev/grabby
+
 echo -e "\033[37m╭────────────╮"
 echo -e "\033[37m│  \033[1;31mUser/Host\033[0;37m │ \033[31m-> $USER\033[37m@\033[31m$HOSTNAME"
 echo -e "\033[37m│         \033[1;32mOS\033[0;37m │ \033[32m-> $(grep '^NAME' /etc/os-release | cut -c 6-) \033[37m(\033[32m$(uname -r)\033[37m)"
