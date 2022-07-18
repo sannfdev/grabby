@@ -4,7 +4,7 @@ A customizable minimalist system info application
 # Installation
 | Method    | Command                                                                                           |
 | :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/sannfdev/install.sh)"`|
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/sannfdev/grabby/main/install.sh)"`|
 
 
 ## Output preview
