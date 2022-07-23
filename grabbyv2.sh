@@ -7,6 +7,9 @@
 
 # https://github.com/sannfdev/grabby
 
+# Dependencies check
+if [[ ! -f "/usr/bin/wmctrl" ]]; then printf "\033[1;37m[\033[31mERR\033[37m]\033[0m 'wmctrl' not found. Please install it with your prefered package manager.\n"; exit 1; fi
+
 # Config
 if [[ ! -f "$HOME/.grabby.conf" ]]; then
     printf "\033[1;37m[\033[33mWARN\033[37m]\033[0m Config not found, creating one in '%s'\n" $HOME
